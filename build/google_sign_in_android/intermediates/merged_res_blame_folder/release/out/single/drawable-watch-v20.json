@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/pikachu/flutter/fyp/build/google_sign_in_android/intermediates/res/merged/release/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/pikachu/flutter/fyp/build/google_sign_in_android/intermediates/res/merged/release/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/pikachu/flutter/fyp/build/google_sign_in_android/intermediates/res/merged/release/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+    }
+]

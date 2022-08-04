@@ -1,0 +1,19 @@
+{
+    "comma" : ",",
+    "toSybmol": "-",
+    "am": "AM",
+    "pm": "PM",
+    "on": "On",
+    "off": "Off",
+    "note": "Note",
+    "remind": "Remind",
+    "loading": "Loading",
+    "downloading": "Downloading",
+    "confirm" : "Confirm",
+    "cancel": "Cancel",
+    "cannotBeEmpty": "Cannot be empty",
+    "connectionError" : "There is an error when connecting to the server. Please try again",
+    "connectTimeoutError" : "Connecting time is too long.Please try again",
+    "receiveTimeoutError": "The server currently is busy,Please try agin",
+    "otherError": "Unexpected error occures. Please try again"
+}

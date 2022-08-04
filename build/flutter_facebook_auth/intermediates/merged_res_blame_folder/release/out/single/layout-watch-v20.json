@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/pikachu/flutter/fyp/build/flutter_facebook_auth/intermediates/res/merged/release/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "/Users/pikachu/.gradle/caches/transforms-2/files-2.1/cfac98bd9ca0521394c77a62cc617832/appcompat-1.1.0/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/pikachu/flutter/fyp/build/flutter_facebook_auth/intermediates/res/merged/release/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/pikachu/.gradle/caches/transforms-2/files-2.1/cfac98bd9ca0521394c77a62cc617832/appcompat-1.1.0/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    }
+]

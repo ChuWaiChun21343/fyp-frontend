@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/res/merged/profile/values-km/values-km.xml",
+            "map": [
+                {
+                    "source": "/Users/pikachu/.gradle/caches/transforms-2/files-2.1/b075ab99b5c2dbf8ba91b1ed15e5d0d8/core-1.3.0/res/values-km/values-km.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/incremental/mergeProfileResources/merged.dir/values-km/values-km.xml",
+            "map": [
+                {
+                    "source": "/Users/pikachu/.gradle/caches/transforms-2/files-2.1/b075ab99b5c2dbf8ba91b1ed15e5d0d8/core-1.3.0/res/values-km/values-km.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

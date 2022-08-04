@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/pikachu/flutter/fyp/build/flutter_facebook_auth/intermediates/res/merged/release/animator/fragment_fade_enter.xml",
+        "source": "/Users/pikachu/.gradle/caches/transforms-2/files-2.1/b38ea7a3019e46de54f3f770e462bba4/fragment-1.3.0/res/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "/Users/pikachu/flutter/fyp/build/flutter_facebook_auth/intermediates/res/merged/release/animator/fragment_close_exit.xml",
+        "source": "/Users/pikachu/.gradle/caches/transforms-2/files-2.1/b38ea7a3019e46de54f3f770e462bba4/fragment-1.3.0/res/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "/Users/pikachu/flutter/fyp/build/flutter_facebook_auth/intermediates/res/merged/release/animator/fragment_close_enter.xml",
+        "source": "/Users/pikachu/.gradle/caches/transforms-2/files-2.1/b38ea7a3019e46de54f3f770e462bba4/fragment-1.3.0/res/animator/fragment_close_enter.xml"
+    },
+    {
+        "merged": "/Users/pikachu/flutter/fyp/build/flutter_facebook_auth/intermediates/res/merged/release/animator/fragment_fade_exit.xml",
+        "source": "/Users/pikachu/.gradle/caches/transforms-2/files-2.1/b38ea7a3019e46de54f3f770e462bba4/fragment-1.3.0/res/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "/Users/pikachu/flutter/fyp/build/flutter_facebook_auth/intermediates/res/merged/release/animator/fragment_open_exit.xml",
+        "source": "/Users/pikachu/.gradle/caches/transforms-2/files-2.1/b38ea7a3019e46de54f3f770e462bba4/fragment-1.3.0/res/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "/Users/pikachu/flutter/fyp/build/flutter_facebook_auth/intermediates/res/merged/release/animator/fragment_open_enter.xml",
+        "source": "/Users/pikachu/.gradle/caches/transforms-2/files-2.1/b38ea7a3019e46de54f3f770e462bba4/fragment-1.3.0/res/animator/fragment_open_enter.xml"
+    }
+]

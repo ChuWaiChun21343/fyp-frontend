@@ -1,0 +1,763 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:1:1-50:12
+MERGED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:1:1-50:12
+MERGED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:2:1-46:12
+MERGED from [:firebase_core] /Users/pikachu/flutter/fyp/build/firebase_core/intermediates/library_manifest/profile/AndroidManifest.xml:2:1-15:12
+MERGED from [:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/profile/AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/pikachu/flutter/fyp/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/profile/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /Users/pikachu/flutter/fyp/build/sqflite/intermediates/library_manifest/profile/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:2:1-28:12
+MERGED from [:url_launcher_android] /Users/pikachu/flutter/fyp/build/url_launcher_android/intermediates/library_manifest/profile/AndroidManifest.xml:2:1-14:12
+MERGED from [:path_provider_android] /Users/pikachu/flutter/fyp/build/path_provider_android/intermediates/library_manifest/profile/AndroidManifest.xml:2:1-7:12
+MERGED from [:google_sign_in_android] /Users/pikachu/flutter/fyp/build/google_sign_in_android/intermediates/library_manifest/profile/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_facebook_auth] /Users/pikachu/flutter/fyp/build/flutter_facebook_auth/intermediates/library_manifest/profile/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] /Users/pikachu/flutter/fyp/build/shared_preferences_android/intermediates/library_manifest/profile/AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler] /Users/pikachu/flutter/fyp/build/permission_handler/intermediates/library_manifest/profile/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/ccf6cc24c794446cf783e45d1960cbe7/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:17:1-58:12
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/024c0bac6abe58007310e50389da4322/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/d97d48ba194e327dc3a02601613a385c/exifinterface-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.android:facebook-login:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/2536fbeaba37207eeedfa0db3862d3f4/jetified-facebook-login-13.2.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:21:1-52:12
+MERGED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:21:1-62:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c35982360643f1e0994d129be1f883af/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/140cd7f61443abcd47a4b4b9e0701901/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/54885ee8908393a7e1d982eca1f2df75/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1e1b3e110f45e1283b1727a241a32cb4/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f59147e87c0d85f79a85bd276ec4dd7b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0b5635cdedfa803e28e6920dd972035c/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e6a9856d376b1a514811009fe44c2e47/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1c3f61b705adca3cfa2325cf148f875/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7c413e7488757efb47680a3b90dbdd5c/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/cd9e805cb80ece7f0896651c07c546f1/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b242c6d69f45ec16efbbb91ca11bb117/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1ff556d3694b268a310ad0e88f56344a/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/8524f3c80ec169e440e2ca9d6a379dec/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/8c379b8a16eeaf2c5d40436ae258908b/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e294c78d4dc953db97e971dec03a770b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/cfac98bd9ca0521394c77a62cc617832/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b38ea7a3019e46de54f3f770e462bba4/fragment-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/700a792b2f01485ff704570651fd8722/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/36e088e633ed20ae907a31d681b8af78/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/aeb36c13309e1b9ba33d2474a9db942c/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.facebook.android:facebook-bolts:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f02e15dfb12e6b5e1526424ae73e3ed4/jetified-facebook-bolts-13.2.0/AndroidManifest.xml:21:1-31:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c4ac21a2fe9e945fbc4af5c6d7667d1b/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.activity:activity:1.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/20cb7fff06910bf52fae8883ef0e6490/jetified-activity-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/495ddd5283579e894cd75e4bdef237c0/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f408304042661db2bfd7072d7d130d58/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b284c68cda73a3ab4cc92b6deb110b44/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/64e29697a16f6eff19c8b991b984b6a9/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/751e5e320fcde63e055b537bf47cd0f5/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/a30cffcb1ffe4a50db4d2c1901d91cff/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c97ceb84333a4b3c0d9635b76da8cf26/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/625ecdd369174054c4f30dbf413fc81d/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f8c44d5dbeefb2f08e44d8f959096b63/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/10391c6556084cd125357530c56a286f/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/d3fa55b4ec402fbf5d4a61bf7bf28aa2/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/a4c3473983948f11b8dfafb207d2f5ad/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/765d169e679eff927181ba7c46d86175/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/75cb3dfc0d9c2e8acd6ded4a5b42e444/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/9d1aca025873c76ac8a4a9eb3c727c52/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/17f8dc4cf942f676d62898768082e1b3/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d5916b1cb8632f9c5007d54408c70b2/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e5ac073f3616b8a6a7ee693a2d02bdd5/lifecycle-runtime-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/2bf624f49bd30440cb5a20a120b5bdc8/jetified-lifecycle-viewmodel-savedstate-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/64976c070abcbb0b9b620368a331fa73/lifecycle-viewmodel-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/bf048e4837fa7e58c03f4744fbf8dc07/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f55ceb11c1354395e49e608883efee4a/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/059a583e8780c17712fa4a56ac7383c6/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/80fedf10adf7f83c97cbbb099797cf9b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/3da70bfebf7f83e4b50054fd70af59f6/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/8aa1743e9f5bbd154565cf82e7676070/lifecycle-livedata-core-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f5d5369620c1ae82c6f615a11baabf2b/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b7dba7b872311429151c7c4f57bb817b/jetified-threetenabp-1.2.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/263f3ebd37c2499fd712036db6ed5591/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c925a35c7817452a9d4c032f1843205f/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/pikachu/flutter/fyp/android/app/src/profile/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/pikachu/flutter/fyp/android/app/src/profile/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/pikachu/flutter/fyp/android/app/src/profile/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:2:5-33
+		INJECTED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pikachu/flutter/fyp/android/app/src/profile/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:1:1-50:12
+		INJECTED from /Users/pikachu/flutter/fyp/android/app/src/profile/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:1:1-50:12
+		INJECTED from /Users/pikachu/flutter/fyp/android/app/src/profile/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:3:4-49:19
+MERGED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:11:5-44:19
+MERGED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:11:5-44:19
+MERGED from [:firebase_core] /Users/pikachu/flutter/fyp/build/firebase_core/intermediates/library_manifest/profile/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/pikachu/flutter/fyp/build/firebase_core/intermediates/library_manifest/profile/AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/profile/AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/profile/AndroidManifest.xml:7:5-17:19
+MERGED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:12:5-26:19
+MERGED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:12:5-26:19
+MERGED from [:url_launcher_android] /Users/pikachu/flutter/fyp/build/url_launcher_android/intermediates/library_manifest/profile/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] /Users/pikachu/flutter/fyp/build/url_launcher_android/intermediates/library_manifest/profile/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/024c0bac6abe58007310e50389da4322/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/024c0bac6abe58007310e50389da4322/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.facebook.android:facebook-login:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/2536fbeaba37207eeedfa0db3862d3f4/jetified-facebook-login-13.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/2536fbeaba37207eeedfa0db3862d3f4/jetified-facebook-login-13.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:29:5-50:19
+MERGED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:29:5-50:19
+MERGED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:30:5-60:19
+MERGED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:30:5-60:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c35982360643f1e0994d129be1f883af/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c35982360643f1e0994d129be1f883af/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7c413e7488757efb47680a3b90dbdd5c/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7c413e7488757efb47680a3b90dbdd5c/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b242c6d69f45ec16efbbb91ca11bb117/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b242c6d69f45ec16efbbb91ca11bb117/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/8524f3c80ec169e440e2ca9d6a379dec/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/8524f3c80ec169e440e2ca9d6a379dec/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/8c379b8a16eeaf2c5d40436ae258908b/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/8c379b8a16eeaf2c5d40436ae258908b/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e294c78d4dc953db97e971dec03a770b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e294c78d4dc953db97e971dec03a770b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.facebook.android:facebook-bolts:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f02e15dfb12e6b5e1526424ae73e3ed4/jetified-facebook-bolts-13.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-bolts:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f02e15dfb12e6b5e1526424ae73e3ed4/jetified-facebook-bolts-13.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [androidx.core:core:1.3.2] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d5916b1cb8632f9c5007d54408c70b2/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d5916b1cb8632f9c5007d54408c70b2/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/059a583e8780c17712fa4a56ac7383c6/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/059a583e8780c17712fa4a56ac7383c6/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b7dba7b872311429151c7c4f57bb817b/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b7dba7b872311429151c7c4f57bb817b/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/263f3ebd37c2499fd712036db6ed5591/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/263f3ebd37c2499fd712036db6ed5591/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d5916b1cb8632f9c5007d54408c70b2/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from [com.facebook.android:facebook-login:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/2536fbeaba37207eeedfa0db3862d3f4/jetified-facebook-login-13.2.0/AndroidManifest.xml:28:18-44
+	android:label
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:4:9-28
+	android:icon
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:5:9-43
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:6:9-8:52
+	android:resource
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:8:11-49
+	android:name
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:7:11-81
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:9:9-11:51
+	android:value
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:11:9-48
+	android:name
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:10:9-85
+activity#com.chuwaichun.fyp.MainActivity
+ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:12:9-43:20
+	android:launchMode
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:15:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:18:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:19:13-55
+	android:exported
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:14:13-36
+	android:configChanges
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:17:13-163
+	android:theme
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:16:13-47
+	android:name
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:13:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:25:13-28:17
+	android:resource
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:27:15-52
+	android:name
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:26:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:35:13-38:17
+	android:resource
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:37:15-61
+	android:name
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:36:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:39:13-42:29
+action#android.intent.action.MAIN
+ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:40:17-68
+	android:name
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:40:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:41:17-76
+	android:name
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:41:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:46:9-48:33
+	android:value
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:48:13-30
+	android:name
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:47:13-44
+uses-sdk
+INJECTED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/pikachu/flutter/fyp/build/firebase_core/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/pikachu/flutter/fyp/build/firebase_core/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/pikachu/flutter/fyp/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/pikachu/flutter/fyp/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/pikachu/flutter/fyp/build/sqflite/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/pikachu/flutter/fyp/build/sqflite/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/pikachu/flutter/fyp/build/url_launcher_android/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/pikachu/flutter/fyp/build/url_launcher_android/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/pikachu/flutter/fyp/build/path_provider_android/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/pikachu/flutter/fyp/build/path_provider_android/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in_android] /Users/pikachu/flutter/fyp/build/google_sign_in_android/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in_android] /Users/pikachu/flutter/fyp/build/google_sign_in_android/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_facebook_auth] /Users/pikachu/flutter/fyp/build/flutter_facebook_auth/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_facebook_auth] /Users/pikachu/flutter/fyp/build/flutter_facebook_auth/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/pikachu/flutter/fyp/build/shared_preferences_android/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/pikachu/flutter/fyp/build/shared_preferences_android/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /Users/pikachu/flutter/fyp/build/permission_handler/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /Users/pikachu/flutter/fyp/build/permission_handler/intermediates/library_manifest/profile/AndroidManifest.xml:5:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/ccf6cc24c794446cf783e45d1960cbe7/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/ccf6cc24c794446cf783e45d1960cbe7/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/024c0bac6abe58007310e50389da4322/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/024c0bac6abe58007310e50389da4322/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/d97d48ba194e327dc3a02601613a385c/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/d97d48ba194e327dc3a02601613a385c/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.android:facebook-login:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/2536fbeaba37207eeedfa0db3862d3f4/jetified-facebook-login-13.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/2536fbeaba37207eeedfa0db3862d3f4/jetified-facebook-login-13.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:25:5-27:41
+MERGED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:25:5-27:41
+MERGED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c35982360643f1e0994d129be1f883af/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c35982360643f1e0994d129be1f883af/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/140cd7f61443abcd47a4b4b9e0701901/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/140cd7f61443abcd47a4b4b9e0701901/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/54885ee8908393a7e1d982eca1f2df75/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/54885ee8908393a7e1d982eca1f2df75/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1e1b3e110f45e1283b1727a241a32cb4/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1e1b3e110f45e1283b1727a241a32cb4/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f59147e87c0d85f79a85bd276ec4dd7b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f59147e87c0d85f79a85bd276ec4dd7b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0b5635cdedfa803e28e6920dd972035c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0b5635cdedfa803e28e6920dd972035c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e6a9856d376b1a514811009fe44c2e47/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e6a9856d376b1a514811009fe44c2e47/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1c3f61b705adca3cfa2325cf148f875/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1c3f61b705adca3cfa2325cf148f875/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7c413e7488757efb47680a3b90dbdd5c/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7c413e7488757efb47680a3b90dbdd5c/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/cd9e805cb80ece7f0896651c07c546f1/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/cd9e805cb80ece7f0896651c07c546f1/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b242c6d69f45ec16efbbb91ca11bb117/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b242c6d69f45ec16efbbb91ca11bb117/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1ff556d3694b268a310ad0e88f56344a/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1ff556d3694b268a310ad0e88f56344a/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/8524f3c80ec169e440e2ca9d6a379dec/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/8524f3c80ec169e440e2ca9d6a379dec/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/8c379b8a16eeaf2c5d40436ae258908b/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/8c379b8a16eeaf2c5d40436ae258908b/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e294c78d4dc953db97e971dec03a770b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e294c78d4dc953db97e971dec03a770b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/cfac98bd9ca0521394c77a62cc617832/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/cfac98bd9ca0521394c77a62cc617832/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b38ea7a3019e46de54f3f770e462bba4/fragment-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b38ea7a3019e46de54f3f770e462bba4/fragment-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/700a792b2f01485ff704570651fd8722/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/700a792b2f01485ff704570651fd8722/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/36e088e633ed20ae907a31d681b8af78/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/36e088e633ed20ae907a31d681b8af78/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/aeb36c13309e1b9ba33d2474a9db942c/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/aeb36c13309e1b9ba33d2474a9db942c/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.facebook.android:facebook-bolts:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f02e15dfb12e6b5e1526424ae73e3ed4/jetified-facebook-bolts-13.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-bolts:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f02e15dfb12e6b5e1526424ae73e3ed4/jetified-facebook-bolts-13.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c4ac21a2fe9e945fbc4af5c6d7667d1b/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c4ac21a2fe9e945fbc4af5c6d7667d1b/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.activity:activity:1.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/20cb7fff06910bf52fae8883ef0e6490/jetified-activity-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/20cb7fff06910bf52fae8883ef0e6490/jetified-activity-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/495ddd5283579e894cd75e4bdef237c0/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/495ddd5283579e894cd75e4bdef237c0/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f408304042661db2bfd7072d7d130d58/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f408304042661db2bfd7072d7d130d58/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b284c68cda73a3ab4cc92b6deb110b44/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b284c68cda73a3ab4cc92b6deb110b44/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/64e29697a16f6eff19c8b991b984b6a9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/64e29697a16f6eff19c8b991b984b6a9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/751e5e320fcde63e055b537bf47cd0f5/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/751e5e320fcde63e055b537bf47cd0f5/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/a30cffcb1ffe4a50db4d2c1901d91cff/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/a30cffcb1ffe4a50db4d2c1901d91cff/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c97ceb84333a4b3c0d9635b76da8cf26/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c97ceb84333a4b3c0d9635b76da8cf26/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/625ecdd369174054c4f30dbf413fc81d/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/625ecdd369174054c4f30dbf413fc81d/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f8c44d5dbeefb2f08e44d8f959096b63/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f8c44d5dbeefb2f08e44d8f959096b63/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/10391c6556084cd125357530c56a286f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/10391c6556084cd125357530c56a286f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/d3fa55b4ec402fbf5d4a61bf7bf28aa2/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/d3fa55b4ec402fbf5d4a61bf7bf28aa2/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/a4c3473983948f11b8dfafb207d2f5ad/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/a4c3473983948f11b8dfafb207d2f5ad/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/765d169e679eff927181ba7c46d86175/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/765d169e679eff927181ba7c46d86175/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/75cb3dfc0d9c2e8acd6ded4a5b42e444/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/75cb3dfc0d9c2e8acd6ded4a5b42e444/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/9d1aca025873c76ac8a4a9eb3c727c52/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/9d1aca025873c76ac8a4a9eb3c727c52/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/17f8dc4cf942f676d62898768082e1b3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/17f8dc4cf942f676d62898768082e1b3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d5916b1cb8632f9c5007d54408c70b2/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d5916b1cb8632f9c5007d54408c70b2/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e5ac073f3616b8a6a7ee693a2d02bdd5/lifecycle-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e5ac073f3616b8a6a7ee693a2d02bdd5/lifecycle-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/2bf624f49bd30440cb5a20a120b5bdc8/jetified-lifecycle-viewmodel-savedstate-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/2bf624f49bd30440cb5a20a120b5bdc8/jetified-lifecycle-viewmodel-savedstate-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/64976c070abcbb0b9b620368a331fa73/lifecycle-viewmodel-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/64976c070abcbb0b9b620368a331fa73/lifecycle-viewmodel-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/bf048e4837fa7e58c03f4744fbf8dc07/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/bf048e4837fa7e58c03f4744fbf8dc07/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f55ceb11c1354395e49e608883efee4a/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f55ceb11c1354395e49e608883efee4a/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/059a583e8780c17712fa4a56ac7383c6/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/059a583e8780c17712fa4a56ac7383c6/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/80fedf10adf7f83c97cbbb099797cf9b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/80fedf10adf7f83c97cbbb099797cf9b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/3da70bfebf7f83e4b50054fd70af59f6/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/3da70bfebf7f83e4b50054fd70af59f6/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/8aa1743e9f5bbd154565cf82e7676070/lifecycle-livedata-core-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/8aa1743e9f5bbd154565cf82e7676070/lifecycle-livedata-core-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f5d5369620c1ae82c6f615a11baabf2b/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/f5d5369620c1ae82c6f615a11baabf2b/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b7dba7b872311429151c7c4f57bb817b/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b7dba7b872311429151c7c4f57bb817b/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/263f3ebd37c2499fd712036db6ed5591/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/263f3ebd37c2499fd712036db6ed5591/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c925a35c7817452a9d4c032f1843205f/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c925a35c7817452a9d4c032f1843205f/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/pikachu/flutter/fyp/android/app/src/profile/AndroidManifest.xml
+INJECTED from /Users/pikachu/flutter/fyp/android/app/src/profile/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pikachu/flutter/fyp/android/app/src/profile/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pikachu/flutter/fyp/android/app/src/profile/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/pikachu/flutter/fyp/android/app/src/profile/AndroidManifest.xml:6:5-66
+MERGED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:7:5-67
+MERGED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in_android] /Users/pikachu/flutter/fyp/build/google_sign_in_android/intermediates/library_manifest/profile/AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in_android] /Users/pikachu/flutter/fyp/build/google_sign_in_android/intermediates/library_manifest/profile/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/cd9e805cb80ece7f0896651c07c546f1/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/cd9e805cb80ece7f0896651c07c546f1/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/pikachu/flutter/fyp/android/app/src/profile/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:8:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:23:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:23:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/cd9e805cb80ece7f0896651c07c546f1/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/cd9e805cb80ece7f0896651c07c546f1/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/cd9e805cb80ece7f0896651c07c546f1/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/cd9e805cb80ece7f0896651c07c546f1/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:9:22-76
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
+ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:12:9-15:72
+	android:exported
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:14:13-37
+	android:permission
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:15:13-69
+	android:name
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:13:13-107
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:16:9-22:19
+	android:exported
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:17:13-97
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:19:13-21:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:20:17-78
+	android:name
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:20:25-75
+receiver#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver
+ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:24:9-31:20
+	android:exported
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:27:13-73
+	android:name
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:25:13-98
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:28:13-30:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:29:17-81
+	android:name
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:29:25-78
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:33:9-37:19
+MERGED from [:firebase_core] /Users/pikachu/flutter/fyp/build/firebase_core/intermediates/library_manifest/profile/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/pikachu/flutter/fyp/build/firebase_core/intermediates/library_manifest/profile/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/024c0bac6abe58007310e50389da4322/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/024c0bac6abe58007310e50389da4322/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:33:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:34:13-36:85
+	android:value
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:36:17-82
+	android:name
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:35:17-128
+provider#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:39:9-43:38
+	android:authorities
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:41:13-88
+	android:exported
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:42:13-37
+	android:initOrder
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:43:13-35
+	android:name
+		ADDED from [:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/profile/AndroidManifest.xml:40:13-102
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/pikachu/flutter/fyp/build/firebase_core/intermediates/library_manifest/profile/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/pikachu/flutter/fyp/build/firebase_core/intermediates/library_manifest/profile/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/pikachu/flutter/fyp/build/firebase_core/intermediates/library_manifest/profile/AndroidManifest.xml:10:17-124
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/profile/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/profile/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/profile/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/profile/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/profile/AndroidManifest.xml:9:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/profile/AndroidManifest.xml:13:13-15:75
+	android:resource
+		ADDED from [:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/profile/AndroidManifest.xml:15:17-72
+	android:name
+		ADDED from [:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/profile/AndroidManifest.xml:14:17-67
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:8:22-63
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:10:22-76
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:13:9-15:40
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:14:13-97
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:16:9-25:20
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:17:13-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:19:13-24:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:20:17-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:20:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:21:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:21:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:22:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:23:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/profile/AndroidManifest.xml:23:25-79
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/pikachu/flutter/fyp/build/url_launcher_android/intermediates/library_manifest/profile/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/pikachu/flutter/fyp/build/url_launcher_android/intermediates/library_manifest/profile/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/pikachu/flutter/fyp/build/url_launcher_android/intermediates/library_manifest/profile/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/pikachu/flutter/fyp/build/url_launcher_android/intermediates/library_manifest/profile/AndroidManifest.xml:9:13-74
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/cd9e805cb80ece7f0896651c07c546f1/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/cd9e805cb80ece7f0896651c07c546f1/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/024c0bac6abe58007310e50389da4322/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/024c0bac6abe58007310e50389da4322/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/024c0bac6abe58007310e50389da4322/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:30:9-33:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:32:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:33:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:31:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:34:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:34:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:35:9-49:20
+	tools:node
+		ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:38:13-31
+	android:exported
+		ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:36:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:39:13-48:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.chuwaichun.fyp+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:39:13-48:29
+action#android.intent.action.VIEW
+ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:40:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:42:17-76
+	android:name
+		ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:42:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:43:17-78
+	android:name
+		ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:43:27-75
+data
+ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:45:17-47:50
+	android:host
+		ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:46:21-56
+	android:scheme
+		ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:47:21-47
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:28:22-76
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:41:9-44:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:43:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:42:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:46:9-52:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:47:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:49:13-51:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:50:25-92
+receiver#com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:53:9-59:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:54:13-118
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:56:13-58:29
+action#com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:57:17-103
+	android:name
+		ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:57:25-100
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7c413e7488757efb47680a3b90dbdd5c/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7c413e7488757efb47680a3b90dbdd5c/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7c413e7488757efb47680a3b90dbdd5c/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7c413e7488757efb47680a3b90dbdd5c/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e294c78d4dc953db97e971dec03a770b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e294c78d4dc953db97e971dec03a770b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e294c78d4dc953db97e971dec03a770b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/263f3ebd37c2499fd712036db6ed5591/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/263f3ebd37c2499fd712036db6ed5591/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107

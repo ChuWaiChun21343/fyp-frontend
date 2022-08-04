@@ -1,0 +1,522 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.chuwaichun.fyp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:6:3-64
+14-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:6:20-62
+15
+16    <queries>
+16-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:3:5-5:15
+17        <provider android:authorities="com.facebook.katana.provider.PlatformProvider" />
+17-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:4:9-89
+17-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:4:19-86
+18    </queries>
+19
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-68
+20-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-65
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+21-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+22-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+23    <uses-permission android:name="android.permission.VIBRATE" />
+23-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+23-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-63
+24    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+24-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+24-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+25    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+25-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-79
+25-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-76
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+26-->[com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+27    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+27-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:28:5-79
+27-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:28:22-76
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+28-->[com.android.installreferrer:installreferrer:1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/263f3ebd37c2499fd712036db6ed5591/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+28-->[com.android.installreferrer:installreferrer:1.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/263f3ebd37c2499fd712036db6ed5591/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+29
+30    <application
+30-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:7:4-75:19
+31        android:name="androidx.multidex.MultiDexApplication"
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.3.2] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d5916b1cb8632f9c5007d54408c70b2/core-1.3.2/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:9:9-43
+35        android:label="fyp"
+35-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:8:9-28
+36        android:supportsRtl="true" >
+36-->[com.facebook.android:facebook-login:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/2536fbeaba37207eeedfa0db3862d3f4/jetified-facebook-login-13.2.0/AndroidManifest.xml:28:18-44
+37        <meta-data
+37-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:10:9-12:52
+38            android:name="com.google.firebase.messaging.default_notification_icon"
+38-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:11:11-81
+39            android:resource="@mipmap/ic_launcher" />
+39-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:12:11-49
+40        <meta-data
+40-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:13:9-15:51
+41            android:name="com.google.firebase.messaging.default_notification_channel_id"
+41-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:14:9-85
+42            android:value="high_importance_channel" />
+42-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:15:9-48
+43        <meta-data
+43-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:16:9-18:52
+44            android:name="com.facebook.sdk.ApplicationId"
+44-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:17:11-56
+45            android:value="@string/facebook_app_id" />
+45-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:18:11-50
+46        <meta-data
+46-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:19:9-21:58
+47            android:name="com.facebook.sdk.ClientToken"
+47-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:20:11-54
+48            android:value="@string/facebook_client_token" />
+48-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:21:11-56
+49
+50        <activity
+50-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:22:9-53:20
+51            android:name="com.chuwaichun.fyp.MainActivity"
+51-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:23:13-41
+52            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+52-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:27:13-163
+53            android:exported="true"
+53-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:24:13-36
+54            android:hardwareAccelerated="true"
+54-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:28:13-47
+55            android:launchMode="singleTop"
+55-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:25:13-43
+56            android:theme="@style/LaunchTheme"
+56-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:26:13-47
+57            android:windowSoftInputMode="adjustResize" >
+57-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:29:13-55
+58
+59            <!--
+60                 Specifies an Android theme to apply to this Activity as soon as
+61                 the Android process has started. This theme is visible to the user
+62                 while the Flutter UI initializes. After that, this theme continues
+63                 to determine the Window background behind the Flutter UI.
+64            -->
+65            <meta-data
+65-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:35:13-38:17
+66                android:name="io.flutter.embedding.android.NormalTheme"
+66-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:36:15-70
+67                android:resource="@style/NormalTheme" />
+67-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:37:15-52
+68
+69            <!--
+70                 Displays an Android View that continues showing the launch screen
+71                 Drawable until Flutter paints its first frame, then this splash
+72                 screen fades out. A splash screen is useful to avoid any visual
+73                 gap between the end of Android's launch screen and the painting of
+74                 Flutter's first frame.
+75            -->
+76            <meta-data
+76-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:45:13-48:17
+77                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+77-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:46:15-79
+78                android:resource="@drawable/launch_background" />
+78-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:47:15-61
+79
+80            <intent-filter>
+80-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:49:13-52:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:50:17-68
+81-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:50:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:51:17-76
+83-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:51:27-74
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:55:7-58:36
+87            android:name="com.facebook.FacebookActivity"
+87-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:55:17-61
+88            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+88-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:56:9-109
+89            android:label="CityuFYP"
+89-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:58:9-33
+90            android:theme="@style/com_facebook_activity_theme" />
+90-->[com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:33:13-63
+91        <activity
+91-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:59:7-68:18
+92            android:name="com.facebook.CustomTabActivity"
+92-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:60:9-54
+93            android:exported="true" >
+93-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:61:9-32
+94            <intent-filter>
+94-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:62:9-67:25
+95                <action android:name="android.intent.action.VIEW" />
+95-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:63:13-65
+95-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:63:21-62
+96
+97                <category android:name="android.intent.category.DEFAULT" />
+97-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:64:13-72
+97-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:64:23-69
+98                <category android:name="android.intent.category.BROWSABLE" />
+98-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:65:13-74
+98-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:65:23-71
+99
+100                <data android:scheme="@string/fb_login_protocol_scheme" />
+100-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:66:13-71
+100-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:66:19-68
+101            </intent-filter>
+102            <intent-filter>
+102-->[com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:39:13-48:29
+103                <action android:name="android.intent.action.VIEW" />
+103-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:63:13-65
+103-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:63:21-62
+104
+105                <category android:name="android.intent.category.DEFAULT" />
+105-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:64:13-72
+105-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:64:23-69
+106                <category android:name="android.intent.category.BROWSABLE" />
+106-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:65:13-74
+106-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:65:23-71
+107
+108                <data
+108-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:66:13-71
+109                    android:host="cct.com.chuwaichun.fyp"
+110                    android:scheme="fbconnect" />
+110-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:66:19-68
+111            </intent-filter>
+112        </activity>
+113
+114        <!--
+115             Don't delete the meta-data below.
+116             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+117        -->
+118        <meta-data
+118-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:72:9-74:33
+119            android:name="flutterEmbedding"
+119-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:73:13-44
+120            android:value="2" />
+120-->/Users/pikachu/flutter/fyp/android/app/src/main/AndroidManifest.xml:74:13-30
+121
+122        <service
+122-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-15:72
+123            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+123-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-107
+124            android:exported="false"
+124-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+125            android:permission="android.permission.BIND_JOB_SERVICE" />
+125-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-69
+126        <service
+126-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-22:19
+127            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+127-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-97
+128            android:exported="false" >
+128-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+129            <intent-filter>
+129-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+130                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+130-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+130-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+131            </intent-filter>
+132        </service>
+133
+134        <receiver
+134-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-31:20
+135            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+135-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-98
+136            android:exported="true"
+136-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-36
+137            android:permission="com.google.android.c2dm.permission.SEND" >
+137-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-73
+138            <intent-filter>
+138-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+139                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+139-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+139-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+140            </intent-filter>
+141        </receiver>
+142
+143        <service
+143-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-37:19
+144            android:name="com.google.firebase.components.ComponentDiscoveryService"
+144-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:33:18-89
+145            android:directBootAware="true"
+145-->[com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+146            android:exported="false" >
+146-->[com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+147            <meta-data
+147-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-36:85
+148                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+148-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-128
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-82
+150            <meta-data
+150-->[:firebase_core] /Users/pikachu/flutter/fyp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+151                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+151-->[:firebase_core] /Users/pikachu/flutter/fyp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[:firebase_core] /Users/pikachu/flutter/fyp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+154                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+154-->[com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/024c0bac6abe58007310e50389da4322/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+157                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+157-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/024c0bac6abe58007310e50389da4322/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/024c0bac6abe58007310e50389da4322/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+159            <meta-data
+159-->[com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+160                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+160-->[com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-installations:17.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/1bac9f327068f1a224975851a114103c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+162        </service>
+163
+164        <provider
+164-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-43:38
+165            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+165-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-102
+166            android:authorities="com.chuwaichun.fyp.flutterfirebasemessaginginitprovider"
+166-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-88
+167            android:exported="false"
+167-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-37
+168            android:initOrder="99" />
+168-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-35
+169        <provider
+169-->[:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+170            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+170-->[:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+171            android:authorities="com.chuwaichun.fyp.flutter.image_provider"
+171-->[:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+172            android:exported="false"
+172-->[:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+173            android:grantUriPermissions="true" >
+173-->[:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+174            <meta-data
+174-->[:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+175                android:name="android.support.FILE_PROVIDER_PATHS"
+175-->[:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+176                android:resource="@xml/flutter_image_picker_file_paths" />
+176-->[:image_picker] /Users/pikachu/flutter/fyp/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+177        </provider>
+178
+179        <receiver
+179-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-15:40
+180            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+180-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-97
+181            android:exported="false" />
+181-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+182        <receiver
+182-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-25:20
+183            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+183-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-101
+184            android:exported="false" >
+184-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+185            <intent-filter>
+185-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-24:29
+186                <action android:name="android.intent.action.BOOT_COMPLETED" />
+186-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-79
+186-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-76
+187                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+187-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-84
+187-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-81
+188                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+188-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-82
+188-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-79
+189                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+189-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-82
+189-->[:flutter_local_notifications] /Users/pikachu/flutter/fyp/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:25-79
+190            </intent-filter>
+191        </receiver>
+192
+193        <activity
+193-->[:url_launcher_android] /Users/pikachu/flutter/fyp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+194            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+194-->[:url_launcher_android] /Users/pikachu/flutter/fyp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+195            android:exported="false"
+195-->[:url_launcher_android] /Users/pikachu/flutter/fyp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+196            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+196-->[:url_launcher_android] /Users/pikachu/flutter/fyp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+197
+198        <receiver
+198-->[com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+199            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+199-->[com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+200            android:exported="true"
+200-->[com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+201            android:permission="com.google.android.c2dm.permission.SEND" >
+201-->[com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+202            <intent-filter>
+202-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+203                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+203-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+203-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+204            </intent-filter>
+205        </receiver>
+206        <!--
+207             FirebaseMessagingService performs security checks at runtime,
+208             but set to not exported to explicitly avoid allowing another app to call it.
+209        -->
+210        <service
+210-->[com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+211            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+211-->[com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+212            android:directBootAware="true"
+212-->[com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+213            android:exported="false" >
+213-->[com.google.firebase:firebase-messaging:23.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/0190d5531ef7ad7f1054553502a11f2a/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+214            <intent-filter android:priority="-500" >
+214-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+215                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+215-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+215-->[:firebase_messaging] /Users/pikachu/flutter/fyp/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+216            </intent-filter>
+217        </service>
+218
+219        <provider
+219-->[com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+220            android:name="com.google.firebase.provider.FirebaseInitProvider"
+220-->[com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+221            android:authorities="com.chuwaichun.fyp.firebaseinitprovider"
+221-->[com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+222            android:directBootAware="true"
+222-->[com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+223            android:exported="false"
+223-->[com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+224            android:initOrder="100" />
+224-->[com.google.firebase:firebase-common:20.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/04f84d38273e5efde0c9613a770139d0/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+225
+226        <activity android:name="com.facebook.CustomTabMainActivity" />
+226-->[com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:34:9-71
+226-->[com.facebook.android:facebook-common:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/b12e33337650c7df7d5a316342c4e240/jetified-facebook-common-13.2.0/AndroidManifest.xml:34:19-68
+227        <!--
+228         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+229         with the application context. This config is merged in with the host app's manifest,
+230         but there can only be one provider with the same authority activated at any given
+231         point; so if the end user has two or more different apps that use Facebook SDK, only the
+232         first one will be able to use the provider. To work around this problem, we use the
+233         following placeholder in the authority to identify each host application as if it was
+234         a completely different provider.
+235        -->
+236        <provider
+236-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:41:9-44:40
+237            android:name="com.facebook.internal.FacebookInitProvider"
+237-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:42:13-70
+238            android:authorities="com.chuwaichun.fyp.FacebookInitProvider"
+238-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:43:13-72
+239            android:exported="false" />
+239-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:44:13-37
+240
+241        <receiver
+241-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:46:9-52:20
+242            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+242-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:47:13-86
+243            android:exported="false" >
+243-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:48:13-37
+244            <intent-filter>
+244-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:49:13-51:29
+245                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+245-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:50:17-95
+245-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:50:25-92
+246            </intent-filter>
+247        </receiver>
+248        <receiver
+248-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:53:9-59:20
+249            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+249-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:54:13-118
+250            android:exported="false" >
+250-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:55:13-37
+251            <intent-filter>
+251-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:56:13-58:29
+252                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+252-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:57:17-103
+252-->[com.facebook.android:facebook-core:13.2.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7d8c111c501f8ecde73c494610228399/jetified-facebook-core-13.2.0/AndroidManifest.xml:57:25-100
+253            </intent-filter>
+254        </receiver>
+255
+256        <activity
+256-->[com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
+257            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+257-->[com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
+258            android:excludeFromRecents="true"
+258-->[com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
+259            android:exported="false"
+259-->[com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
+260            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+260-->[com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
+261        <!--
+262            Service handling Google Sign-In user revocation. For apps that do not integrate with
+263            Google Sign-In, this service will never be started.
+264        -->
+265        <service
+265-->[com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
+266            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+266-->[com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+267            android:exported="true"
+267-->[com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
+268            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+268-->[com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
+269            android:visibleToInstantApps="true" />
+269-->[com.google.android.gms:play-services-auth:20.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/31382d248ccc11437b461781c635f55b/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
+270
+271        <activity
+271-->[com.google.android.gms:play-services-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7c413e7488757efb47680a3b90dbdd5c/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+272            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+272-->[com.google.android.gms:play-services-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7c413e7488757efb47680a3b90dbdd5c/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+273            android:exported="false"
+273-->[com.google.android.gms:play-services-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7c413e7488757efb47680a3b90dbdd5c/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+274            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+274-->[com.google.android.gms:play-services-base:18.0.1] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/7c413e7488757efb47680a3b90dbdd5c/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+275
+276        <meta-data
+276-->[com.google.android.gms:play-services-basement:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e294c78d4dc953db97e971dec03a770b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+277            android:name="com.google.android.gms.version"
+277-->[com.google.android.gms:play-services-basement:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e294c78d4dc953db97e971dec03a770b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+278            android:value="@integer/google_play_services_version" />
+278-->[com.google.android.gms:play-services-basement:18.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/e294c78d4dc953db97e971dec03a770b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+279
+280        <service
+280-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+281            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+281-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+282            android:exported="false" >
+282-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+283            <meta-data
+283-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+284                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+284-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+285                android:value="cct" />
+285-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/4808bf66c2f2d9cca3d8e47f26dd5591/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+286        </service>
+287        <service
+287-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+288            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+288-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+289            android:exported="false"
+289-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+290            android:permission="android.permission.BIND_JOB_SERVICE" >
+290-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+291        </service>
+292
+293        <receiver
+293-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+294            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+294-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+295            android:exported="false" />
+295-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/pikachu/.gradle/caches/transforms-2/files-2.1/c1b96d7a0ee3c51a9ad5cc5e25065f85/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+296    </application>
+297
+298</manifest>

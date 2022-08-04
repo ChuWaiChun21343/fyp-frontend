@@ -1,0 +1,34 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'message_room.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MessageRoom _$MessageRoomFromJson(Map<String, dynamic> json) => MessageRoom(
+      json['id'] as int,
+      json['post_id'] as int,
+      json['creator'] as int,
+      json['receiver'] as int,
+      json['message'] as String,
+      json['lastMessageUserID'] as int,
+      json['create_date'] as String,
+      json['userID'] as int,
+      json['name'] as String,
+      json['view'] as int,
+    );
+
+Map<String, dynamic> _$MessageRoomToJson(MessageRoom instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'post_id': instance.postID,
+      'creator': instance.creator,
+      'receiver': instance.receiver,
+      'message': instance.latestMessage,
+      'lastMessageUserID': instance.lastMessageUserID,
+      'create_date': instance.time,
+      'userID': instance.userID,
+      'name': instance.name,
+      'view': instance.view,
+    };

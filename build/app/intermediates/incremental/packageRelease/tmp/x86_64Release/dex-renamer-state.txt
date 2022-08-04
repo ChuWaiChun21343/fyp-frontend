@@ -1,0 +1,4 @@
+#Fri Jul 08 23:23:05 HKT 2022
+base.0=/Users/pikachu/flutter/fyp/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
